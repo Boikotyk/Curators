@@ -1,0 +1,141 @@
+.header-top {
+    background: #eee none repeat scroll 0 0;
+    font-size: 13px;
+}
+.top-menu {
+    float: left;
+}
+p.welcome-msg {
+    border-left: 1px solid #ddd;
+    display: inline-block;
+    line-height: 30px;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    color: #000;
+}
+.top-link {
+    float: right;
+}
+.top-link > ul.link {
+    display: inline-block;
+    line-height: 50px;
+    margin-bottom: -5px;
+}
+.top-link > ul.link > li {
+    border-left: 1px solid #ddd;
+    display: inline-block;
+    float: left;
+    height: 50px;
+    list-style: outside none none;
+    overflow: hidden;
+}
+.top-link > ul.link > li a {
+    color: #333;
+    display: block;
+    font-size: 25px;
+    height: 50px;
+    line-height: 58px;
+    padding: 0 20px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #fff;
+    text-transform: capitalize;
+    transition: all 0.3s ease 0s;
+    white-space: nowrap;
+    width: 100%;
+}
+.fa {
+    padding: 0 9px;
+}
+.pfblock-subtitle {
+    text-align: left;
+}
+.tabstud td, th {
+    padding: 0 12px;
+    color: #000;
+    text-align: center;
+}
+.scroll-table-body {
+    height: 300px;
+    overflow-x: auto;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+}
+.scroll-table table {
+    width:100%;
+    table-layout: fixed;
+    border: none;
+}
+
+.scroll-table thead{
+    background-color: yellow;
+}
+.scroll-table thead th {
+    font-weight: bold;
+    text-align: left;
+    border: none;
+    padding: 10px 15px;
+    background: #d8d8d8;
+    font-size: 14px;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+}
+
+
+/*.scroll-table tbody td {
+    text-align: left;
+    border-left: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    padding: 10px 15px;
+    font-size: 14px;
+    vertical-align: top;
+}*/
+.scroll-table tbody tr:nth-child(even){
+    background: #f3f3f3;
+}
+ 
+/* Стили для скролла */
+::-webkit-scrollbar {
+    width: 6px;
+} 
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+} 
+::-webkit-scrollbar-thumb {
+    box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+}
+.methoddoch{
+    color: #fff;
+}
+div#link_register, div#link_auth {
+    font-family: 'Open Sans Condensed', sans-serif;
+    text-decoration: none;
+    position: relative;
+    width: 80%;
+    display: block;
+    margin: 9px auto;
+    font-size: 17px;
+    color: #fff;
+    padding: 8px;
+    border-radius: 6px;
+    border: none;
+    background: rgba(3,3,3,.1);
+    -webkit-transition: all 2s ease-in-out;
+    -moz-transition: all 2s ease-in-out;
+    -o-transition: all 2s ease-in-out;
+    transition: all 0.2s ease-in-out;
+}
+.logform{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    width: 260px;
+    height: 260px;
+    border-radius: 5px;
+    background: rgba(3,3,3,0.25);
+    box-shadow: 1px 1px 50px #000;
+}
